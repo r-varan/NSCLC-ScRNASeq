@@ -1,5 +1,5 @@
 # NSCLC-ScRNASeq
-Personal sc-RNASeq Project that uncovers Tumour Micro-Environment (TME) via cell-subtype clustering
+Personal sc-RNASeq Project that uncovers Tumour Micro-Environment (TME) of a Non-Small Cell Tumour Sample via cell-subtype clustering. This project is still under development. To this date, cell-type clustering was performed to uncover all the different cell types within this tumour sample. The idea is to hopefully perform further analysis via trajectory inference, and cell-to-cell interactions to identify potential therapeutics.
 
 ## Dependencies
 R
