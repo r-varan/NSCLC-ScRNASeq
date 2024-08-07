@@ -35,14 +35,14 @@ The data is scaled using the ScaleData function to standardize gene expression v
 6. Dimensionality Reduction
 Principal Component Analysis (PCA) is performed using the RunPCA function to reduce the dimensionality of the data and highlight the most important features.
 
-7. Clustering
+7. Doublet Detection and Filtration
+Doublets are detected using the DoubletFinder package, and the data is adjusted to remove these artifacts.
+
+8. Clustering
 Cells are clustered using a graph-based clustering approach with the FindNeighbors and FindClusters functions.
 
-8. Visualization
+9. Visualization
 The clusters are visualized using UMAP with the RunUMAP function, allowing for the identification of distinct cell populations.
-
-9. Doublet Detection
-Doublets are detected using the DoubletFinder package, and the data is adjusted to remove these artifacts.
 
 10. Save Results
 The final Seurat object, with doublets removed, is saved as an RDS file for future use.
