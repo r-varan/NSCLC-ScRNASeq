@@ -1,7 +1,7 @@
 # NSCLC-ScRNASeq
 Personal sc-RNASeq Project that uncovers Tumour Micro-Environment (TME) via cell-subtype clustering
 
-# Dependencies
+## Dependencies
 R
 tidyverse
 Seurat
@@ -9,13 +9,13 @@ ggplot2
 DoubletFinder
 hdf5r
 
-# Input Data
+## Input Data
 The raw input data file 20k_NSCLC_DTC_3p_nextgem_Multiplex_count_raw_feature_bc_matrix.h5 was derived from 10X Genomics website. It is not stored in a repository due to large file size. For more information, feel free to contact me.
 
-# Output
+## Output
 The processed Seurat object with cell type clustering should be saved in the results/ directory as nsclc_seurat_obj_dblt_adj.rds.
 
-# Detailed Steps
+## Detailed Steps
 
 1. Data Loading
 The raw scRNA-seq data is loaded from an HDF5 file using the Read10X_h5 function.
